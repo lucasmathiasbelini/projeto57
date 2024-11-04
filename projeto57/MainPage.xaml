@@ -2,30 +2,37 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="projeto57.MainPage"
-             Shell.NavBarIsVisible="false">
+             Shell.NavBarIsVisible="False">
 
-    <ContentPage.Content>
-        <AbsoluteLayout>
-            <Image Source="tema2.jpg"
-                   Aspect="Fill"
-                   AbsoluteLayout.LayoutBounds="0, 0, 8, 1"
-                   AbsoluteLayout.LayoutFlags="All" />
-
-            <Image Source="chao.png"
-                   x:Name="Chao"
-                   HeightRequest="690"
-                   WidthRequest="974"
-                   AbsoluteLayout.LayoutBounds="0, 40, 1, AutoSize"
-                   AbsoluteLayout.LayoutFlags="All" />
-
-            <Image Source="arma1.webp"
-                   x:Name="BottomPipe"
-                   VerticalOptions="End"
-                   HorizontalOptions="End"
-                   HeightRequest="60"
-                   WidthRequest="520"
-                   AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" 
-                   AbsoluteLayout.LayoutFlags="PositionProportional" />
-        </AbsoluteLayout>
-    </ContentPage.Content>
+       <Grid>
+              <HorizontalStackLayout x:Name="layerFundo">
+                     <Image Source="tema4.png"
+                            Aspect="AspectFill"/>
+                     <Image Source="tema4.png"
+                            Aspect="AspectFill"/>
+                     <Image Source="tema4.png"
+                            Aspect="AspectFill"/>
+              </HorizontalStackLayout>
+              <HorizontalStackLayout x:Name="layerCidade">
+                     <Image Source="casa1.png"
+                            HeightRequest="300"/>
+                     <Image Source="casa2.png"
+                            HeightRequest="300"/>
+                     <Image Source="casa3.png"
+                            HeightRequest="300"/>
+              </HorizontalStackLayout>
+              <HorizontalStackLayout x:Name="layerAsfalto">
+                     <Image Source="chao.png"
+                            WidthRequest="264"
+                            VerticalOptions="End"/>
+                     <Image Source="chao.png"
+                            WidthRequest="264"
+                            VerticalOptions="End"/>
+                     <Image Source="chao.png"
+                            WidthRequest="264"
+                            VerticalOptions="End"/>
+              </HorizontalStackLayout>
+                     <Image Source="cristal1.webp"
+                            WidthRequest="200"/>
+       </Grid>
 </ContentPage>
