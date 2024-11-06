@@ -6,33 +6,45 @@
 
        <Grid>
               <HorizontalStackLayout x:Name="layerFundo">
-                     <Image Source="tema4.png"
+                     <Image Source="tema7.jpg"
                             Aspect="AspectFill"/>
-                     <Image Source="tema4.png"
+                     <Image Source="tema7.jpg"
                             Aspect="AspectFill"/>
-                     <Image Source="tema4.png"
+                     <Image Source="tema7.jpg"
                             Aspect="AspectFill"/>
               </HorizontalStackLayout>
               <HorizontalStackLayout x:Name="layerCidade">
-                     <Image Source="casa1.png"
+                     <Image Source="arvore.webp"
                             HeightRequest="300"/>
-                     <Image Source="casa2.png"
+                     <Image Source="arvore.webp"
                             HeightRequest="300"/>
-                     <Image Source="casa3.png"
+                     <Image Source="arvore.webp"
                             HeightRequest="300"/>
               </HorizontalStackLayout>
               <HorizontalStackLayout x:Name="layerAsfalto">
-                     <Image Source="chao.png"
-                            WidthRequest="264"
+                     <Image Source="chao2.png"
+                            Aspect="Fill"
+                            HeightRequest="199"
                             VerticalOptions="End"/>
-                     <Image Source="chao.png"
-                            WidthRequest="264"
+                     <Image Source="chao2.png"
+                            Aspect="Fill"
+                            HeightRequest="199"
                             VerticalOptions="End"/>
-                     <Image Source="chao.png"
-                            WidthRequest="264"
+                     <Image Source="chao2.png"
+                            Aspect="Fill"
+                            HeightRequest="199"
                             VerticalOptions="End"/>
               </HorizontalStackLayout>
-                     <Image Source="cristal1.webp"
+                     <Image Source="neco.png"
                             WidthRequest="200"/>
+                             <HorizontalStackLayout x:Name="layerSemaforo">
+                     <Image Source="semaforo.png"
+                            HeightRequest="100"/>
+                     <Image Source="pedra.png"
+                            HeightRequest="100"
+                            HorizontalOptions="StartAndExpand"/>
+                     <Image Source="pedra.png"
+                            HeightRequest="30"/>
+              </HorizontalStackLayout>
        </Grid>
 </ContentPage>
