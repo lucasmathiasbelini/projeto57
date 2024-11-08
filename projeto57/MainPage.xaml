@@ -36,7 +36,9 @@
                             VerticalOptions="End"/>
               </HorizontalStackLayout>
                      <Image Source="neco.png"
-                            WidthRequest="200"/>
+                            WidthRequest="200"
+                            HeightRequest="100"
+                            />
                              <HorizontalStackLayout x:Name="layerSemaforo">
                      <Image Source="semaforo.png"
                             HeightRequest="100"/>
